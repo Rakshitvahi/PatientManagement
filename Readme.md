@@ -2,7 +2,7 @@
 
 ## Basic CRUD operations
 
-## Endpoints
+### Endpoints
 
 - GET /patient/all
 - GET /patient/{id}
