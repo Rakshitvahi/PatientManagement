@@ -14,15 +14,15 @@
 ### Database Configuration
 This project uses an in-memory H2 database for development. Below are the key configurations used in the application.properties file and their purposes:
 
-- spring.datasource.url=jdbc:h2:mem:patients_data
+- <b>spring.datasource.url=jdbc:h2:mem:patients_data</b>
   Configures the application to use an in-memory H2 database named patients_data. The database is temporary and resets every time the application restarts. Ideal for testing or development.
-- spring.datasource.driverClassName=org.h2.Driver
+- <b>spring.datasource.driverClassName=org.h2.Driver</b>
   Specifies the H2 database driver (org.h2.Driver) to establish a connection. Although Spring Boot can auto-detect it, it's explicitly defined for clarity and compatibility.
-- spring.datasource.username=r
+- <b>spring.datasource.username=r</b>
   Sets the database username as r for authentication.
-- spring.datasource.password=r
+- <b>spring.datasource.password=r</b>
   Configures the database password as r to secure the connection.
-- spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+- <b>spring.jpa.database-platform=org.hibernate.dialect.H2Dialect</b>
   Tells Hibernate to generate SQL commands optimized for the H2 database. This ensures compatibility with the H2 database's SQL syntax and features.
-- spring.h2.console.enabled=true
+- <b>spring.h2.console.enabled=true</b>
   Enables the H2 web console for debugging and database inspection. The console can be accessed at /h2-console when the application is running.
