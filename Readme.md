@@ -1,8 +1,8 @@
-#Patient Management System
+# Patient Management System
 
-##Basic CRUD operations
+## Basic CRUD operations
 
-##Endpoints
+## Endpoints
 
 - GET /patient/all
 - GET /patient/{id}
